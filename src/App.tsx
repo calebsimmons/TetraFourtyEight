@@ -14,6 +14,7 @@ function App() {
       <Router>
         <Link to="/home">Play Now</Link>
         <Routes>
+          <Route path='/' />
           <Route path='/home' element={<HomePage/>}/>
         </Routes>
       </Router>
